@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'RSBlack';
+    src: url(fontFiles/RSBlack.ttf);
+}
+@font-face {
+    font-family: 'RSBold';
+    src: url(fontFiles/RSBold.ttf);
+}
+@font-face {
+    font-family: 'RSExBold';
+    src: url(fontFiles/RSExtraBold.ttf);
+}
+@font-face {
+    font-family: 'RSExLight';
+    src: url(fontFiles/RSExtraLight.ttf);
+}@font-face {
+    font-family: 'RSLight';
+    src: url(fontFiles/RSLight.ttf);
+}
+@font-face {
+    font-family: 'RSMedium';
+    src: url(fontFiles/RSMedium.ttf);
+}
+@font-face {
+    font-family: 'RSRegular';
+    src: url(fontFiles/RSRegular.ttf);
+}
+@font-face {
+    font-family: 'RSSemiBold';
+    src: url(fontFiles/RSSemiBold.ttf);
+}
+@font-face {
+    font-family: 'RSThin';
+    src: url(fontFiles/RSThin.ttf);
+}

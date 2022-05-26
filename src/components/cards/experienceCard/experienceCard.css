@@ -1,0 +1,26 @@
+.heading{
+    font: 3rem 'RSMedium';
+      color: var(--green);
+      -webkit-text-stroke: 0.09rem black;
+      margin-bottom: 1%;
+  }
+
+/* .EventCardWrapper{ */
+  /* display: flex; */
+   /* gap: 3%;  */
+/* } */
+
+.EventCardWrapper:nth-child(odd){
+  margin-right: auto;
+}
+
+.EventCardWrapper:nth-child(even){
+  margin-left: auto;
+}
+
+.ExperienceCard{
+  width: 30rem;
+  padding: 1rem;
+  background-color: var(--green);
+  color: var(--blue);
+}

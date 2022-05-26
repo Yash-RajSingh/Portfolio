@@ -1,0 +1,90 @@
+
+.front-container{
+    margin: 4% auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animation-container{
+    display: inline-block;
+}
+
+.container1{
+    margin: 10% 0 0 7%;
+    width: 40rem;
+}
+.header{
+    font: 3rem 'RSMedium';
+    color: var(--green);
+    -webkit-text-stroke: 0.09rem black;
+    margin-bottom: 1%;
+}
+
+/* Animated title  */
+.typingText{
+    margin: 0;
+    width: 0;
+    overflow: hidden;
+    border-right: 2px solid var(--green);
+    -webkit-text-stroke: 0.1rem black;
+    color: var(--green);
+    font: 4.5rem 'RSExBold';
+    white-space: nowrap;
+    letter-spacing: 0.005rem;
+    animation: typer 4s steps(30, end) infinite alternate;
+}
+
+.container2{
+    width: 35%;
+    margin: 0 auto;
+    height: 30rem;
+}
+.me{
+    width: 25rem;
+    animation: hovering 2s infinite ease-in-out;
+    margin: 5% 0 0 10%;
+}
+
+.container2 div{
+    width: 70%;
+    margin: 0 auto;
+    height: 0.5rem;
+    background: var(--green);
+    border: 0.0.5px solid black;
+    border-radius: 50%;
+    animation: expand 2s infinite ease-in-out;
+}
+
+/* ANIMATIONS */
+@keyframes typer {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 105%;
+    }
+}
+
+@keyframes hovering {
+    0%{
+        margin-top: 0;
+    }
+    50%{
+        margin-top: -10px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+
+@keyframes expand {
+    0%{
+        width: 70%;
+    }
+    50%{
+        width: 50%;
+    }
+    100%{
+        width: 70%;
+    }
+}

@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Hacktoberfest 2021 Challenge",
+        "type": 1,
+        "position": "",
+        "dated": "October 2021",
+        "image": "./images/Achievements/hacktoberfest.jpg",
+        "tag": "Challenge Completed"
+    },
+    {
+        "name": "Elytra Hacks",
+        "type": 3,
+        "position": "a place among the top 10 teams",
+        "dated": "October 31st 2021",
+        "image": "./images/Achievements/elytraHack.png",
+        "tag": "Top 10"
+    },
+    {
+        "name": "Hack36",
+        "type": 3,
+        "position": "a place among the top 50 teams",
+        "dated": "April 24 2022",
+        "image": "./images/Achievements/ytbr1.jpg",
+        "tag": "Top 50"
+    },
+    {
+        "name": "Newton's Coding Challenge September 2021",
+        "type": 3,
+        "position": "1205th rank ",
+        "dated": "",
+        "image": "./images/Achievements/NWCSeptember.png",
+        "tag": "Ranked 1205"
+    },
+    {
+        "name": "Newton's Grand Contest 2021",
+        "type": 3,
+        "position": "4042th rank",
+        "dated": "",
+        "image": "./images/Achievements/NGC.png",
+        "tag": "Ranked 4042"
+    },
+    {
+        "name": "Accenture Consultant Program",
+        "type": 1,
+        "position": "",
+        "dated": "August 27th",
+        "image": "./images/Achievements/accenture.jpg",
+        "tag": "Program Completed"
+    },
+    {
+        "name": "Goldman Sachs Engineering Virtual Program",
+        "type": 1,
+        "position": "",
+        "dated": "June 12th 2021",
+        "image": "./images/Achievements/GoldmanSachs.jpg",
+        "tag": "Program Comleted"
+    },
+    {
+        "name": "Script Winter of Code 2022",
+        "type": 4,
+        "position": "",
+        "dated": "December 2022",
+        "image": "./images/Achievements/SWOC.png",
+        "tag": "Contributed"
+    },
+    {
+        "name": "Devfest 2021",
+        "type": 2,
+        "position": "",
+        "dated": "October 24th 2021",
+        "image": "./images/Achievements/devfest.jpg",
+        "tag": "Participated"
+    },
+    {
+        "name": "HackCBS 4.0",
+        "type": 2,
+        "position": "",
+        "dated": "October 29th 2021",
+        "image": "./images/Achievements/hackCBS.jpg",
+        "tag": "Participated"
+    },
+    {
+        "name": "Electothon 4.0",
+        "type": 2,
+        "position": "",
+        "dated": "Februay 18th 2022",
+        "image": "./images/Achievements/electrothon.png",
+        "tag": "Participated"
+    },
+    {
+        "name": "Hack NITR 3.0",
+        "type": 2,
+        "position": "",
+        "dated": "October 30th 2021",
+        "image": "./images/Achievements/hackNITR.png",
+        "tag": "Participated"
+    },
+    {
+        "name": "Hack-NU-Thon 3.0",
+        "type": 2,
+        "position": "",
+        "dated": "April 22nd 2022",
+        "image": "./images/Achievements/hackNUthon.jpg",
+        "tag": "Participated"
+    },
+    {
+        "name": "HackOdisha",
+        "type": 2,
+        "position": "",
+        "dated": "September 19th 2021",
+        "image": "./images/Achievements/hackodisha.png",
+        "tag": "Participated"
+    },
+    {
+        "name": "Hack-O-Uplift",
+        "type": 2,
+        "position": "",
+        "dated": "September 5th 2021",
+        "image": "./images/Achievements/hackOuplift.jpg",
+        "tag": "Participated"
+    },
+    {
+        "name": "Hack The Mountains 2.0",
+        "type": 2,
+        "position": "",
+        "dated": "June 27th 2021",
+        "image": "./images/Achievements/hackTheMountains.jpg",
+        "tag": "Participated"
+    },
+    {
+        "name": "PsychHack",
+        "type": 2,
+        "position": "",
+        "dated": "February 13th 2022",
+        "image": "./images/Achievements/Psychhack.jpg",
+        "tag": "Participated"
+    }
+]

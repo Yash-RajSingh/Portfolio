@@ -1,0 +1,20 @@
+[
+    {
+        "organisation": "TrendingETC",
+        "role": "Content Writer",
+        "type": "Internship",
+        "start_date": "Februray 9th 2021",
+        "end_date": "May 31st 2021",
+        "description": "Created 180+ articles under the pen name- 'Highball' and curated website content.",
+        "sample": "https://www.trendingetc.com/author/highball/"
+    },
+    {
+        "organisation": "ACE- Association for Computer Enthusiasts",
+        "role": "Web development and cyber security team member",
+        "type": "Extracurricular work",
+        "start_date": "Februray 15th 2021",
+        "end_date": "Present",
+        "description": "Conducting events as a part of the society and built projects as a part of the Web development and cyber security.",
+        "sample": "https://github.com/Yash-RajSingh/Despoina"
+    }
+]

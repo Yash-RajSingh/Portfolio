@@ -1,0 +1,79 @@
+[
+    {
+        "name": "OverWatch",
+        "about": "A map based website to display dangerous locations based on user experience.",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Leaflet.js",
+            "Python",
+            "Flask",
+            "MySQL"
+        ],
+        "image": "./images/Projects/overwatch.jpeg",
+        "url": "https://over-watch.netlify.app/"
+    },
+    {
+        "name": "Ensemble",
+        "about": "An organizational website to handle group projects.",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Python",
+            "Flask",
+            "MySQL"
+        ],
+        "image": "./images/Projects/ensemble.jpg",
+        "url": "https://en-semble.netlify.app/"
+    },
+    {
+        "name": "Anime Paradise",
+        "about": "A website for anime recommendation and anime news.",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Jikan API",
+            "Kitsu API",
+            "Ani API",
+            "Animechan API"
+        ],
+        "image": "./images/Projects/animeParadise.jpg",
+        "url": "https://anime-paradise.netlify.app/"
+    },
+    {
+        "name": "Spirit Dive",
+        "about": "A website about spiritual healing for people in need.",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Speech Synthesis API"
+        ],
+        "image": "./images/Projects/spiritDive.jpg",
+        "url": "https://spiritdive.netlify.app/"
+    },
+    {
+        "name": "Despoina",
+        "about": "A web based password tool with different security related features.",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap"
+        ],
+        "image": "./images/Projects/despoina.jpg",
+        "url": "https://despoina.netlify.app/"
+    },
+    {
+        "name": "Valorant Boule",
+        "about": "A fun website for Valorant Players",
+        "tech": ["HTML", "CSS","JavaScript"], 
+        "image": "./images/Projects/valorantBoule.jpg",
+        "url": "https://valorant-boule.netlify.app/"
+    }
+]
