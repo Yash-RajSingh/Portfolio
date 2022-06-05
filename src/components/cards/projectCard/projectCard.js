@@ -1,5 +1,5 @@
 import './projectCard.css'
-import Open from '../../../assets/open2.png'
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 // TAGS COMPONENT
 const Tag = (arr) => {
@@ -35,7 +35,7 @@ const ProjectCard = (ele) => {
                     <p className='about'>{about}</p>
                     <Tag arr={tech} />
                 </div>
-                <a href={url} target='_blank' className='URL'>Open &nbsp;<img src={Open} className="Open" /> </a>
+                <a href={url} target='_blank' className='URL'>Open &ensp;<FaExternalLinkAlt /> </a>
             </div>
         </>
     )

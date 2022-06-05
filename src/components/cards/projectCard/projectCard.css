@@ -84,12 +84,12 @@ hr{
 
 /* style={{backgroundImage: `linear-gradient(to top, #008667,  #3bba9c93,  #ffffff16, #ffffff09), url(${image})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}} */
 
-.heading{
+/* .heading{
   font: 3rem 'RSMedium';
     color: #13c99e;
     -webkit-text-stroke: 0.09rem black;
     margin-bottom: 1%;
-}
+} */
 
 
 .redirect{
@@ -106,6 +106,8 @@ hr{
   right: 45%;
 }
 
-.Open{
-  width: 1rem;
+@media screen and (max-width: 720px) {
+  .Project-Card {
+    width: 35rem;
+  }
 }

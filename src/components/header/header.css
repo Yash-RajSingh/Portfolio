@@ -58,11 +58,10 @@ li{
 }
 
 .open{
-    /* display: block; */
     opacity: 1;
 }
 .close{
-    /* display: none; */
+    pointer-events: none;
     opacity: 0;
 }
 
@@ -75,3 +74,4 @@ li{
         opacity: 1;
     }
 }
+

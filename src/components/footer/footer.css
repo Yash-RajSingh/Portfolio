@@ -1,0 +1,67 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(166.7deg, transparent 50%, var(--green) 50.2%);
+  margin-top: 20%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+.socials {
+  /* border: 2px solid green; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.socialIcon {
+  font-size: 2.5rem;
+}
+a {
+  text-decoration: none;
+  color: var(--green);
+}
+
+.myName {
+  /* border: 2px solid yellow; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.myName p {
+  color: var(--blue);
+  font: 4rem "RSbold";
+  letter-spacing: 0.5rem;
+  margin-top: 2%;
+}
+
+.myName span {
+  color: var(--blue);
+  font: 1rem "RSbold";
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    height: 20vh;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 30%;
+    border-top: 2px solid var(--green);
+    border-left: 2px solid var(--green);
+    background: linear-gradient(156deg, transparent 50%, var(--green) 50.2%);
+  }
+  .socials {
+    width: 53%;
+    gap: 5%;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+  }
+  .socialIcon{
+      margin-top: -3rem;
+  }
+}

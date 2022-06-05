@@ -33,3 +33,7 @@
     font-family: 'RSThin';
     src: url(fontFiles/RSThin.ttf);
 }
+@font-face {
+    font-family: 'Dancing';
+    src: url(fontFiles/DancingScript-Regular.ttf);
+}

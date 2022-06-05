@@ -8,6 +8,8 @@ import './App.css'
 import Header from "../components/header/header";
 import Home from "./home";
 import Projects from "./projects";
+import 'animate.css';
+
 
 const App = () => {
     return (

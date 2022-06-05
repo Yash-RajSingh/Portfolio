@@ -3,6 +3,7 @@
     margin: 4% auto;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .animation-container{
@@ -40,7 +41,7 @@
     height: 30rem;
 }
 .me{
-    width: 25rem;
+    width: 100%;
     animation: hovering 2s infinite ease-in-out;
     margin: 5% 0 0 10%;
 }
@@ -86,5 +87,25 @@
     }
     100%{
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .front-container{
+        flex-direction: column;
+    }
+    .container1{
+        width: 90%;
+        margin-top: 50%;
+    }
+    .container2{
+        width: 90%;
+        margin-top: 20%;
+    }
+    .me{
+        width: 80%;
+    }
+    .header{
+        font-size: 5rem;
     }
 }

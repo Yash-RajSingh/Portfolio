@@ -3,3 +3,9 @@
     /* border: 1px solid white; */
     margin: 10% auto;
 }
+
+@media screen and (max-width: 720px) {
+    .card-cantainer{
+        margin-top: 20%;
+    }
+}

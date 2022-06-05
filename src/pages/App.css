@@ -15,6 +15,7 @@ body {
   background: var(--blue);
   color: var(--green);
   padding: 1.2rem;
+  padding-bottom: 0;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -34,7 +35,7 @@ body {
   width: 40px;
   height: 40px;
   /* background: var(--lightest-purple); */
-  background: #28e0b5d4;
+  background: #28e0b58e;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.591);
   opacity: 0.7;
@@ -139,4 +140,11 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #009c75;
+}
+
+@media screen and (max-width: 720px) {
+  body{
+    padding: 0.7rem;
+  }
+  
 }
