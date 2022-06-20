@@ -9,9 +9,11 @@ import Header from "../components/header/header";
 import Home from "./home";
 import Projects from "./projects";
 import 'animate.css';
-
+import Footer from '../components/footer/footer'
+import Achievements from "./achievements";
 
 const App = () => {
+    
     return (
         <>
             <div className="bubbles">
@@ -27,17 +29,23 @@ const App = () => {
                 <div className="bubble"></div>
 
             </div>
-            <Router>
-                <Header />
-                <Switch>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                    <Route path="/projects">
-                        <Projects />
-                    </Route>
-                </Switch>
-            </Router>
+                <div style={{padding: "1.2rem", paddingBottom: "0"}}>
+                    <Router>
+                        <Header />
+                        <Switch>
+                            <Route exact path="/">
+                                <Home />
+                            </Route>
+                            <Route path="/projects">
+                                <Projects />
+                            </Route>
+                            <Route path="/achievements">
+                                <Achievements />
+                            </Route>
+                        </Switch>
+                    </Router>
+                    <Footer />
+                </div>
         </>
     );
 };

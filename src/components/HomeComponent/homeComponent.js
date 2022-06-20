@@ -4,20 +4,23 @@ import CardContainer from '../cardContainer/cardContainer'
 import AchievementComponent from '../cards/achievementCard/achievementCard'
 import ExperienceComponent from '../cards/experienceCard/experienceCard'
 import ProjectComponent from '../cards/projectCard/projectCard'
-import Footer from '../footer/footer'
 import About from '../about/about'
 import SkillsContainer from '../cards/skillsCard/skillsCard'
-
+import { useScrollTo } from 'react-use-window-scroll';
 //DATA IMPORTS
 import ProjectsData from '../../data/projects.json'
 import AchievementData from '../../data/endeavours.json'
 import ExperienceData from '../../data/experience.json'
 import Skills from '../../data/skills.json'
+import Loader from '../loader/loader'
 
 const HomeComponent = () => {
+    const scrollTo = useScrollTo();
+    window.scrollTo({ top: 0 })
     return (
         <>
-            <div className='front-container animate__animated animate__slideInLeft'>
+                <Loader />
+            <div className='front-container animate__animated animate__fadeIn'>
                 <div className='container1'>
                     <h2 className='header'>Hey! I'm Yash,</h2>
                     <div className='animation-container'>
@@ -31,11 +34,10 @@ const HomeComponent = () => {
             </div>
             <CardContainer componentToPassDown={<About/>} />
             <CardContainer componentToPassDown={<SkillsContainer data={Skills} />} />
-            <CardContainer componentToPassDown={<ProjectComponent data={ProjectsData} />} />
-            <CardContainer componentToPassDown={<AchievementComponent data={AchievementData} />} />
-            <CardContainer componentToPassDown={<ExperienceComponent data={ExperienceData} />} />
+            <CardContainer componentToPassDown={<ProjectComponent data={ProjectsData} flag={false}/>} />
+            <CardContainer componentToPassDown={<AchievementComponent data={AchievementData} flag={false}/>} />
+            <CardContainer componentToPassDown={<ExperienceComponent data={ExperienceData} /> } />
 
-            <Footer />
         </>
     )
 }

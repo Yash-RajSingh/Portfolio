@@ -34,7 +34,7 @@
   padding: 0;
   margin: 0;
 }
-hr{
+hr {
   background: black;
   border: none;
 }
@@ -65,7 +65,7 @@ hr{
 .tag {
   background: #1f213c;
   font-size: 0.777rem;
-  font-family: 'RSExLight';
+  font-family: "RSExLight";
   color: white;
   margin-top: 3%;
   padding: 0.3rem 0.7rem;
@@ -77,7 +77,7 @@ hr{
   text-decoration: none;
   margin: 0 0 2% 75%;
   padding: 0.3rem 0.75rem;
-  font: 0.95rem 'RSLight';
+  font: 0.95rem "RSLight";
   font-weight: 500;
   border: 0.001rem solid #000000ad;
 }
@@ -91,15 +91,14 @@ hr{
     margin-bottom: 1%;
 } */
 
-
-.redirect{
+.redirect {
   background: var(--green);
   color: #ffffffb4;
   color: black;
   letter-spacing: 0.09rem;
   position: relative;
   width: max-content;
-  font: 1rem 'RSRegular';
+  font: 1rem "RSRegular";
   padding: 0.5rem 1rem;
   margin-top: 5%;
   left: 45%;
@@ -109,5 +108,11 @@ hr{
 @media screen and (max-width: 720px) {
   .Project-Card {
     width: 35rem;
+  }
+  .projectImage {
+    height: 15rem;
+  }
+  .redirect {
+    left: 40%;
   }
 }

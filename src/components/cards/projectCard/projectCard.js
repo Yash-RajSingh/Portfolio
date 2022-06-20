@@ -1,6 +1,7 @@
 import './projectCard.css'
 import { FaExternalLinkAlt } from "react-icons/fa";
-
+import { useHistory } from 'react-router-dom';
+import { useScrollTo } from 'react-use-window-scroll';
 // TAGS COMPONENT
 const Tag = (arr) => {
     var Stack = arr.arr
@@ -8,7 +9,7 @@ const Tag = (arr) => {
         <><div className='TagDiv'>
             {Stack.map((TStack) => {
                 return (
-                    <div className='tag'>
+                    <div className='tag' key={TStack}>
                         {TStack}
                     </div>
                 )
@@ -43,7 +44,15 @@ const ProjectCard = (ele) => {
 
 // PROJECT CARD COMPONENT
 const ProjectComponent = (PData) => {
-    var ProjectData = PData.data.slice(0, 4);
+    const scrollTo = useScrollTo();
+    let history = useHistory()
+    if(PData.flag){
+        var ProjectData = PData.data;
+        window.scrollTo({ top: 0 })
+    }
+    else if(!PData.flag){
+        var ProjectData = PData.data.slice(0, 4);
+    }
     return (
         <>
             <div className='Project-Card-Container'>
@@ -53,15 +62,17 @@ const ProjectComponent = (PData) => {
                         // console.log(ele)
                         return (
                             <>
-                                <div>
+                                <div key={ele}>
                                     <ProjectCard data={ele} />
                                 </div>
                             </>
                         )
                     })}
                 </div>
-                <button className='redirect'>See More
-                </button>
+                {!PData.flag && <button className='redirect' onClick={() => {
+                    history.push(`/projects`)
+                }}>See More
+                </button>}
             </div>
         </>
     );

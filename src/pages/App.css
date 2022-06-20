@@ -6,15 +6,15 @@
 :root {
   --darkest-purple: #2e3047;
   --green: #3bba9c;
+  --blue: #1a1c34;
   --light-purple: #43455c;
   --lightest-purple: #707793;
   --dark-purple: #3c3f58;
-  --blue: #1a1c34;
 }
 body {
   background: var(--blue);
   color: var(--green);
-  padding: 1.2rem;
+  padding: 0;
   padding-bottom: 0;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -35,7 +35,7 @@ body {
   width: 40px;
   height: 40px;
   /* background: var(--lightest-purple); */
-  background: #28e0b58e;
+  background: #28e0b554;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.591);
   opacity: 0.7;

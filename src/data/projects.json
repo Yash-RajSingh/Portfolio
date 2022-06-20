@@ -1,5 +1,17 @@
 [
     {
+        "name": "i-NFT-y",
+        "about": "A prototype frontend for a NFT marketplace website.",
+        "tech": [
+            "React.js",
+            "Framer motion",
+            "React Intersection Observer",
+            "React Spinner"
+        ],
+        "image": "./images/Projects/i-NFT-y.jpg",
+        "url": "https://i-nft-y.netlify.app/"
+    },
+    {
         "name": "OverWatch",
         "about": "A map based website to display dangerous locations based on user experience.",
         "tech": [
@@ -10,7 +22,7 @@
             "Leaflet.js",
             "Python",
             "Flask",
-            "MySQL"
+            "PostgreSQL"
         ],
         "image": "./images/Projects/overwatch.jpeg",
         "url": "https://over-watch.netlify.app/"
@@ -25,10 +37,22 @@
             "jQuery",
             "Python",
             "Flask",
-            "MySQL"
+            "PostgreSQL"
         ],
         "image": "./images/Projects/ensemble.jpg",
         "url": "https://en-semble.netlify.app/"
+    },
+    {
+        "name": "ACE Website",
+        "about": "The official website for the technical society of V.I.P.S. - Association of Computer Enthusiasts (Group project).",
+        "tech": [
+            "React.js",
+            "Styled Components",
+            "Gatsby.js",
+            "GraphQL"
+        ],
+        "image": "./images/Projects/ACE-Website.jpg",
+        "url": "https://vipsace.org/"
     },
     {
         "name": "Anime Paradise",

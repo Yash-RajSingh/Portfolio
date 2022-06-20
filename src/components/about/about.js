@@ -1,7 +1,11 @@
 import './about.css'
 import ME from '../../assets/me.jpg'
+import Resume from '../../assets/Resume.pdf'
 
 const About = () => {
+    const handleClick = () => {
+        window.open(Resume, '_blank')
+      }
     return (
         <>
             <div className='aboutContainer'>
@@ -14,6 +18,7 @@ const About = () => {
                      Guru Gobind Singh Indraprastha University. I'm a budding Frontend developer (PS! 
                      soon I'll be a full stack developer), looking forward to hone my skills and learn new things
                      while contributing to anything and everything that I can. </p>
+                     <button onClick={handleClick} className="resume">Resume</button>
                 </div>
             </div>
             </div>

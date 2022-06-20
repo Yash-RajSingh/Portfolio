@@ -1,4 +1,7 @@
 import './achievementCard.css'
+import { useHistory } from 'react-router-dom';
+import { useScrollTo } from 'react-use-window-scroll';
+
 const TypeChecker = (type, position, name) => {
 
     if (type === 1) {
@@ -38,12 +41,20 @@ const AchievementCard = (achievement) => {
 }
 
 const AchievementComponent = (AchievementData) => {
-    var Data = AchievementData.data.slice(0, 6);
+    let history = useHistory()
+    const scrollTo = useScrollTo();
+    if(AchievementData.flag){
+        var Data = AchievementData.data;
+        window.scrollTo({ top: 0 })
+    }
+    else if(!AchievementData.flag){
+        var Data = AchievementData.data.slice(0, 6);
+    }
     var id = 0;
     return (
         <>
             <div className='Achievement-Card-Container'>
-                <h2 className='heading'>Achievements &nbsp; & &nbsp; Endeavours </h2>
+                <h2 className='heading'>Achievements&nbsp; &&nbsp;Endeavours </h2>
                 <div className='AchievementWrapper'>
                     {Data.map((element) => {
                         // console.log(element)
@@ -54,7 +65,7 @@ const AchievementComponent = (AchievementData) => {
                         )
                     })}
                 </div>
-                <button className='redirect'>See More</button>
+                {!AchievementData.flag && < button className='redirect' onClick={() => {history.push(`/achievements`)}}>See More</button>}
             </div>
         </>
     );

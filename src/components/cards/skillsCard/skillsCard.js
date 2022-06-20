@@ -16,7 +16,7 @@ const SkillsContainer = (skill) => {
                 <h2 className='heading'>Skills</h2>
                 <div className='SkillWrapper'>
                     {count.map((element) => {
-                        return (<SkillCard data={element} />);
+                        return (<SkillCard data={element} key={element}/>);
 
                     })}
                 </div>

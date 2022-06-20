@@ -47,16 +47,17 @@ a {
 @media screen and (max-width: 720px) {
   .footer {
     height: 20vh;
-    width: 98%;
+    width: 100%;
     margin: auto;
     margin-bottom: 0;
     margin-top: 30%;
-    border-top: 2px solid var(--green);
-    border-left: 2px solid var(--green);
+    /* border-top: 2px solid var(--green);
+    border-left: 2px solid var(--green); */
     background: linear-gradient(156deg, transparent 50%, var(--green) 50.2%);
   }
   .socials {
     width: 53%;
+    margin-top: -2%;
     gap: 5%;
     /* justify-content: space-evenly; */
     flex-wrap: wrap;
