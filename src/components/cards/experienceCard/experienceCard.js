@@ -7,7 +7,7 @@ const ExperienceCard = (data) => {
     var currentClass = data.class
     return (
         <>
-            <div className={'ExperienceCard ' + `${currentClass}`}>
+            <div className={'ExperienceCard ' + `${currentClass}`} >
                 <h4 className='orgName'>{currentData.organisation}</h4>
                 <span className='type'> {currentData.type}</span>
                 <span className='duration'> {currentData.end_date}</span> <span className='duration'>{currentData.start_date} to&nbsp; </span> 

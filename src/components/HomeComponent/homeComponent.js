@@ -19,7 +19,7 @@ const HomeComponent = () => {
     window.scrollTo({ top: 0 })
     return (
         <>
-                <Loader />
+            <Loader />
             <div className='front-container animate__animated animate__fadeIn'>
                 <div className='container1'>
                     <h2 className='header'>Hey! I'm Yash,</h2>
@@ -28,15 +28,15 @@ const HomeComponent = () => {
                     </div>
                 </div >
                 <div className='container2'>
-                    <img src={ worker } className='me' />
+                    <img src={worker} className='me' />
                     <div> </div>
                 </div>
             </div>
-            <CardContainer componentToPassDown={<About/>} />
+            <CardContainer componentToPassDown={<About />} />
             <CardContainer componentToPassDown={<SkillsContainer data={Skills} />} />
-            <CardContainer componentToPassDown={<ProjectComponent data={ProjectsData} flag={false}/>} />
-            <CardContainer componentToPassDown={<AchievementComponent data={AchievementData} flag={false}/>} />
-            <CardContainer componentToPassDown={<ExperienceComponent data={ExperienceData} /> } />
+            <CardContainer componentToPassDown={<ProjectComponent data={ProjectsData} flag={false} />} />
+            <CardContainer componentToPassDown={<AchievementComponent data={AchievementData} flag={false} />} />
+            <CardContainer componentToPassDown={<ExperienceComponent data={ExperienceData} />} />
 
         </>
     )

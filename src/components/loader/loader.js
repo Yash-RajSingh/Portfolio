@@ -6,18 +6,17 @@ const Loader = () => {
     useEffect(() => {
         setTimeout(() => {
             setLoader(false)
-        }, 2500)
+        }, 2000)
     })
     return (<>
-        {
-            loader ? 
+        {loader &&
             <div className="loaderWrapper">
-            <div class="loader">
-                <span></span>
-                <span></span>
-                <span></span>
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-        </div> : ""
         }
     </>);
 }

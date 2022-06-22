@@ -124,8 +124,6 @@ body {
   }
 }
 
-
-
 /*---------Custom Scrollbar Styling---------*/
 ::-webkit-scrollbar {
   width: 0.5vw;
@@ -143,8 +141,7 @@ body {
 }
 
 @media screen and (max-width: 720px) {
-  body{
+  body {
     padding: 0.7rem;
   }
-  
 }
