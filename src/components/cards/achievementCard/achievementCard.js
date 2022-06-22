@@ -5,7 +5,7 @@ import { useScrollTo } from 'react-use-window-scroll';
 const TypeChecker = (type, position, name) => {
 
     if (type === 1) {
-        var msg = `Comleted the ${name}.`
+        var msg = `Completed the ${name}.`
         return msg
     }
     else if (type === 2) {
@@ -24,7 +24,6 @@ const TypeChecker = (type, position, name) => {
 
 const AchievementCard = (achievement) => {
     var achievement = achievement.data;
-    // console.log(achievement)
     var message = `${TypeChecker(achievement.type, achievement.position, achievement.name)}`
     return (
         <>
@@ -57,10 +56,10 @@ const AchievementComponent = (AchievementData) => {
                 <h2 className='heading'>Achievements&nbsp; &&nbsp;Endeavours </h2>
                 <div className='AchievementWrapper'>
                     {Data.map((element) => {
-                        // console.log(element)
+                        id=id+1;
                         return (
                             <>
-                                < AchievementCard data={element} />
+                                < AchievementCard data={element}  key={id} />
                             </>
                         )
                     })}

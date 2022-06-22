@@ -1,5 +1,13 @@
 [
     {
+        "name": "first milestone of Google Cloud Facilitator Program",
+        "type": 1,
+        "position": "",
+        "dated": "June 2022",
+        "image": "./images/Achievements/cloudFacilitator.png",
+        "tag": "Challenge Completed"
+    },
+    {
         "name": "Hacktoberfest 2021 Challenge",
         "type": 1,
         "position": "",

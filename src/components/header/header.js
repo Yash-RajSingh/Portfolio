@@ -1,6 +1,6 @@
 import { Twirl as Hamburger } from 'hamburger-react'
 import { useState } from 'react'
-import { Link } from "react-router-dom"
+import { Link, useHistory  } from "react-router-dom"
 import './header.css'
 
 export const scroller = () => {
@@ -9,9 +9,10 @@ export const scroller = () => {
         behavior: 'smooth',
         block: 'center',
         inline: 'center',
-      })
+    })
 }
 const Header = () => {
+    let history = useHistory()
     const [IsOpen, SetIsOpen] = useState(false)
     const [Color, SetColor] = useState('#4FD1C5')
     function toggler() {
@@ -39,9 +40,10 @@ const Header = () => {
                         <li className=' first'><Link to="/" className="links">Home</Link></li>
                         <li><Link to="/projects" className="links">Projects</Link></li>
                         <li><Link to="/achievements" className="links">Acievements</Link></li>
-                        <li className=' last' onClick={()=> {
-                            scroller()
-                            sessionStorage.setItem('expFlag',true)}}><Link to='/' className="links">Experience</Link></li>
+                        <li className=' last'><span className="links" onClick={()=> {
+                            history.push('/')
+                            sessionStorage.setItem('expFlag', true)
+                            scroller()}}>Experience</span></li>
                         {/* <li >
                         <Link to="/" className="links">Contact me</Link>
                     </li> */}

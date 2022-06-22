@@ -1,10 +1,12 @@
 [
-    "HTML",
-    "CSS",
+    "HTML5",
+    "CSS3",
     "JavaScript",
     "ReactJS",
+    "SASS",
     "MySQL",
     "MongoDB",
     "Firebase",
-    "GitHub"
+    "GitHub",
+    "Styled Components"
 ]

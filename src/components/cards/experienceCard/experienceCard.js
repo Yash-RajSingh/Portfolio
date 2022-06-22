@@ -32,7 +32,7 @@ const ExperienceComponent = (EData) => {
                             pos = pos + 1;
                             var classs = (pos % 2 == 0) ? 'even' : 'odd';
                             return (
-                                <ExperienceCard data={element} class={classs} />
+                                <ExperienceCard data={element} class={classs} key={pos}/>
                             )
                         })}
                     </div>

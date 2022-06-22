@@ -56,7 +56,7 @@
 @media screen and (max-width: 720px) {
   .achievementCard{
     width: 32rem;
-    margin: 3% auto;
+    margin: 5% auto;
   }
   .Certificate{
     height: 20rem;

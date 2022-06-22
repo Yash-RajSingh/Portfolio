@@ -13,10 +13,23 @@ import AchievementData from '../../data/endeavours.json'
 import ExperienceData from '../../data/experience.json'
 import Skills from '../../data/skills.json'
 import Loader from '../loader/loader'
+import { useEffect } from 'react'
 
 const HomeComponent = () => {
     const scrollTo = useScrollTo();
     window.scrollTo({ top: 0 })
+    useEffect(() => {
+        const expFlag = sessionStorage.getItem("expFlag")
+        if (expFlag) {
+            const expLink = document.getElementById('Experience');
+            expLink.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center',
+                inline: 'center',
+            })
+            sessionStorage.clear()
+        }
+    })
     return (
         <>
             <Loader />
