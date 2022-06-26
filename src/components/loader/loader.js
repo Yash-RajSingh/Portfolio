@@ -11,7 +11,7 @@ const Loader = () => {
     return (<>
         {loader &&
             <div className="loaderWrapper">
-                <div class="loader">
+                <div className="loader">
                     <span></span>
                     <span></span>
                     <span></span>

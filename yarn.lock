@@ -7300,7 +7300,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@^18.0.0", "react-dom@^18.1.0", "react-dom@>=16", "react-dom@>=16.8 || ^17.0.0 || ^18.0.0":
+"react-dom@^18.0.0", "react-dom@^18.1.0", "react-dom@>=16.8 || ^17.0.0 || ^18.0.0":
   "integrity" "sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.1.0.tgz"
   "version" "18.1.0"
@@ -7437,14 +7437,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react-use-window-scroll@^1.0.14":
-  "integrity" "sha512-gYA1hc9D3C7zfM+KLQO/Obuxvx7Gzg/w/auDkpmsA9XPKBxk0pLTrRmFTYYw+9K9CMxd0kn/GBYVGbh3TMZHew=="
-  "resolved" "https://registry.npmjs.org/react-use-window-scroll/-/react-use-window-scroll-1.0.14.tgz"
-  "version" "1.0.14"
-  dependencies:
-    "smoothscroll-polyfill" "^0.4.4"
-
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0", "react@^16.8 || ^17 || ^18", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>=15", "react@>=16", "react@>=16.8 || ^17.0.0 || ^18.0.0":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0", "react@^16.8 || ^17 || ^18", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>=15", "react@>=16.8 || ^17.0.0 || ^18.0.0":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"
@@ -7933,11 +7926,6 @@
   "integrity" "sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew=="
   "resolved" "https://registry.npmjs.org/slash/-/slash-4.0.0.tgz"
   "version" "4.0.0"
-
-"smoothscroll-polyfill@^0.4.4":
-  "integrity" "sha512-TK5ZA9U5RqCwMpfoMq/l1mrH0JAR7y7KRvOBx0n2869aLxch+gT9GhN3yUfjiw+d/DiF1mKo14+hd62JyMmoBg=="
-  "resolved" "https://registry.npmjs.org/smoothscroll-polyfill/-/smoothscroll-polyfill-0.4.4.tgz"
-  "version" "0.4.4"
 
 "sockjs@^0.3.21":
   "integrity" "sha512-GJgLTZ7vYb/JtPSSZ10hsOYIvEYsjbNU+zPdIHcUaWVNUEPivzxku31865sSSud0Da0W4lEeOPlmw93zLQchuQ=="

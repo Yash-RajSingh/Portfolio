@@ -6,17 +6,15 @@ import ExperienceComponent from '../cards/experienceCard/experienceCard'
 import ProjectComponent from '../cards/projectCard/projectCard'
 import About from '../about/about'
 import SkillsContainer from '../cards/skillsCard/skillsCard'
-import { useScrollTo } from 'react-use-window-scroll';
+import Loader from '../loader/loader'
+import { useEffect } from 'react'
 //DATA IMPORTS
 import ProjectsData from '../../data/projects.json'
 import AchievementData from '../../data/endeavours.json'
 import ExperienceData from '../../data/experience.json'
 import Skills from '../../data/skills.json'
-import Loader from '../loader/loader'
-import { useEffect } from 'react'
 
 const HomeComponent = () => {
-    const scrollTo = useScrollTo();
     window.scrollTo({ top: 0 })
     useEffect(() => {
         const expFlag = sessionStorage.getItem("expFlag")

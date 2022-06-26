@@ -1,7 +1,6 @@
 import './projectCard.css'
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { useHistory } from 'react-router-dom';
-import { useScrollTo } from 'react-use-window-scroll';
 // TAGS COMPONENT
 const Tag = (arr) => {
     var Stack = arr.arr
@@ -30,13 +29,13 @@ const ProjectCard = (ele) => {
     return (
         <>
             <div className="Project-Card"  >
-                {image && <img src={image} className="projectImage" />}
+                {image && <img src={image} className="projectImage" alt={name}/>}
                 <div className='subCard'>
                     <p className='title'>{name}</p>
                     <p className='about'>{about}</p>
                     <Tag arr={tech} />
                 </div>
-                <a href={url} target='_blank' className='URL'>Open &ensp;<FaExternalLinkAlt /> </a>
+                <a href={url} target='_blank' rel="noreferrer" className='URL'>Open &ensp;<FaExternalLinkAlt /> </a>
             </div>
         </>
     )
@@ -44,14 +43,14 @@ const ProjectCard = (ele) => {
 
 // PROJECT CARD COMPONENT
 const ProjectComponent = (PData) => {
-    const scrollTo = useScrollTo();
     let history = useHistory()
+    var ProjectData
     if(PData.flag){
-        var ProjectData = PData.data;
+        ProjectData = PData.data;
         window.scrollTo({ top: 0 })
     }
     else if(!PData.flag){
-        var ProjectData = PData.data.slice(0, 4);
+        ProjectData = PData.data.slice(0, 4);
     }
     return (
         <>
@@ -59,10 +58,9 @@ const ProjectComponent = (PData) => {
                 <h2 className='heading'>Projects </h2>
                 <div className='CardWrapper'>
                     {ProjectData.map((ele) => {
-                        // console.log(ele)
                         return (
                             <>
-                                <div key={ele}>
+                                <div key={ele.name}>
                                     <ProjectCard data={ele} />
                                 </div>
                             </>

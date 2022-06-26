@@ -1,34 +1,33 @@
 import './achievementCard.css'
 import { useHistory } from 'react-router-dom';
-import { useScrollTo } from 'react-use-window-scroll';
 
 const TypeChecker = (type, position, name) => {
-
+    var msg = "";
     if (type === 1) {
-        var msg = `Completed the ${name}.`
+        msg = `Completed the ${name}.`
         return msg
     }
     else if (type === 2) {
-        var msg = `Participated in ${name}.`
+        msg = `Participated in ${name}.`
         return msg
     }
     else if (type === 3) {
-        var msg = `Secured ${position} in ${name}.`
+        msg = `Secured ${position} in ${name}.`
         return msg
     }
     else {
-        var msg = `Contributed in ${name}.`
+        msg = `Contributed in ${name}.`
         return msg
     }
 }
 
-const AchievementCard = (achievement) => {
-    var achievement = achievement.data;
+const AchievementCard = (achievements) => {
+    var achievement = achievements.data;
     var message = `${TypeChecker(achievement.type, achievement.position, achievement.name)}`
     return (
         <>
             <div className='achievementCard'>
-                <img src={achievement.image} className="Certificate" />
+                <img src={achievement.image} className="Certificate" alt={achievement.name} />
                 {message}
                 <div className='InfoDiv'>
                     {achievement.dated ? <span className='date'>{achievement.dated}</span> : " "}
@@ -41,15 +40,15 @@ const AchievementCard = (achievement) => {
 
 const AchievementComponent = (AchievementData) => {
     let history = useHistory()
-    const scrollTo = useScrollTo();
+    var Data
     if(AchievementData.flag){
-        var Data = AchievementData.data;
+        Data = AchievementData.data;
         window.scrollTo({ top: 0 })
     }
     else if(!AchievementData.flag){
-        var Data = AchievementData.data.slice(0, 6);
+        Data = AchievementData.data.slice(0, 6);
     }
-    var id = 0;
+    var id=0
     return (
         <>
             <div className='Achievement-Card-Container'>

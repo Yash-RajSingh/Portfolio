@@ -15,7 +15,6 @@
     "react-intersection-observer": "^9.3.3",
     "react-router-dom": "^5.3.1",
     "react-scripts": "5.0.1",
-    "react-use-window-scroll": "^1.0.14",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

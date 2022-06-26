@@ -7,7 +7,7 @@ const ExperienceCard = (data) => {
     var currentClass = data.class
     return (
         <>
-            <div className={'ExperienceCard ' + `${currentClass}`} >
+            <div className={`ExperienceCard ${currentClass}`} >
                 <h4 className='orgName'>{currentData.organisation}</h4>
                 <span className='type'> {currentData.type}</span>
                 <span className='duration'> {currentData.end_date}</span> <span className='duration'>{currentData.start_date} to&nbsp; </span> 
@@ -27,10 +27,10 @@ const ExperienceComponent = (EData) => {
                 <h2 className='heading'>Experience</h2>
                 <div className='ExperienceCardsContainer2'>
                         <div id='line'></div>
-                    <div class='ExperienceCardsWrapper'>
+                    <div className='ExperienceCardsWrapper'>
                         {EData.data.map((element) => {
                             pos = pos + 1;
-                            var classs = (pos % 2 == 0) ? 'even' : 'odd';
+                            var classs = (pos % 2 === 0) ? 'even' : 'odd';
                             return (
                                 <ExperienceCard data={element} class={classs} key={pos}/>
                             )

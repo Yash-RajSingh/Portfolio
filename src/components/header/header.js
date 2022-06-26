@@ -19,7 +19,7 @@ const Header = () => {
         SetIsOpen(IsOpen => !IsOpen)
     }
     function toggleColor() {
-        if (Color == '#4FD1C5') {
+        if (Color === '#4FD1C5') {
             SetColor((Color) => {
                 Color = '#1a1c34'
                 return Color
@@ -44,9 +44,6 @@ const Header = () => {
                             history.push('/')
                             sessionStorage.setItem('expFlag', true)
                             scroller()}}>Experience</span></li>
-                        {/* <li >
-                        <Link to="/" className="links">Contact me</Link>
-                    </li> */}
                     </div>
                 </div>
 
