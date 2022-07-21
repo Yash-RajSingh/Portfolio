@@ -39,7 +39,7 @@ const HomeComponent = () => {
                     </div>
                 </div >
                 <div className='container2'>
-                    <img src={worker} className='me' />
+                    <img src={worker} className='me' alt="Worker" />
                     <div> </div>
                 </div>
             </div>

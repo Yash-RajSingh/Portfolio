@@ -1,6 +1,6 @@
 import './about.css'
 import ME from '../../assets/me.jpg'
-import ME2 from '../../assets/me2.jpg'
+// import ME2 from '../../assets/me2.jpg'
 import Resume from '../../assets/Resume.pdf'
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
             <div className='aboutContainer'>
                 <h2 className='heading'>About Me</h2>
                 <div className='aboutWrapper'>
-                    <img src={ME} />
+                    <img src={ME} alt="Me" />
                     <div className='aboutMe'>
                         <p>
                             An upcoming software developer and a technophile for life, myself 

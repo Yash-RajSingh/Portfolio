@@ -27,7 +27,7 @@ const AchievementCard = (achievements) => {
     return (
         <>
             <div className='achievementCard'>
-                <img src={achievement.image} className="Certificate" alt={achievement.name} />
+                <img src={achievement.image} className="Certificate" alt={achievement.name}  loading="lazy"/>
                 {message}
                 <div className='InfoDiv'>
                     {achievement.dated ? <span className='date'>{achievement.dated}</span> : " "}

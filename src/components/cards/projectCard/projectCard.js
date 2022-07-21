@@ -29,7 +29,7 @@ const ProjectCard = (ele) => {
     return (
         <>
             <div className="Project-Card"  >
-                {image && <img src={image} className="projectImage" alt={name}/>}
+                {image && <img src={image} className="projectImage" alt={name} loading="lazy" />}
                 <div className='subCard'>
                     <p className='title'>{name}</p>
                     <p className='about'>{about}</p>
