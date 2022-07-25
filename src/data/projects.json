@@ -7,7 +7,7 @@
             "Styled Components",
             "Framer motion"
         ],
-        "image": "./images/Projects/Internsahara.png",
+        "image": "./images/Projects/internsahara.png",
         "url": "https://internsahara.netlify.app/"
     },
     {
@@ -42,7 +42,7 @@
             "Axios",
             "Cheerio"
         ],
-        "image": "./images/Projects/WebScrapper.png",
+        "image": "./images/Projects/webScrapper.png",
         "url": "https://github.com/Yash-RajSingh/Scapper-express"
     },
     {
