@@ -14,25 +14,11 @@ export const scroller = () => {
 const Header = () => {
     let history = useHistory()
     const [IsOpen, SetIsOpen] = useState(false)
-    const [Color, SetColor] = useState('#4FD1C5')
-    function toggler() {
-        SetIsOpen(IsOpen => !IsOpen)
-    }
-    function toggleColor() {
-        if (Color === '#4FD1C5') {
-            SetColor((Color) => {
-                Color = '#1a1c34'
-                return Color
-            })
-        }
-        else {
-            SetColor(Color => Color = '#4FD1C5')
-        }
-    }
+    const [Color, SetColor] = useState(true)
     return (
         <>
             <div className='icon'>
-                <Hamburger color={Color} size={30} onToggle={() => { toggler(); toggleColor() }} />
+                <Hamburger color={Color ? "#4FD1C5" : "#1a1c34"} size={30} onToggle={() => { SetIsOpen(!IsOpen); SetColor(!Color) }} />
             </div>
             <div className={'headerWrapper ' + (IsOpen ? 'open' : 'close')}>
                 <div className="header">
