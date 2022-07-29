@@ -1,5 +1,16 @@
 [
     {
+        "name": "Gamers Den",
+        "about": "A website for gamers providing information and news about computer games.",
+        "tech": [
+            "React.js",
+            "Styled Components",
+            "Framer motion"
+        ],
+        "image": "./images/Projects/gamersDen.png",
+        "url": "https://gamers-den.netlify.app/"
+    },
+    {
         "name": "InternSahara",
         "about": "A website that lists internship openings scrapped from the Internshala website.",
         "tech": [
