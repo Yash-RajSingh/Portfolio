@@ -1,9 +1,10 @@
 [
     {
         "name": "Gamers Den",
-        "about": "A website for gamers providing information and news about computer games.",
+        "about": "A website providing information and news about computer games with a community chat service.",
         "tech": [
             "React.js",
+            "Firebase",
             "Styled Components",
             "Framer motion"
         ],

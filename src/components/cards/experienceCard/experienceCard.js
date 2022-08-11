@@ -13,7 +13,7 @@ const ExperienceCard = (data) => {
                 <span className='duration'> {currentData.end_date}</span> <span className='duration'>{currentData.start_date} to&nbsp; </span> 
                 <p className='role'><b> Role - </b>{currentData.role}</p>
                 <p className='workDescription'><b>Responsibilities -</b> {currentData.description}</p>
-                <a href={currentData.sample} className='workSample'>Work Sample&nbsp; <FaExternalLinkAlt className="Open" />  </a><br />
+            {currentData.sample && <a href={currentData.sample} className='workSample'>Work Sample&nbsp; <FaExternalLinkAlt className="Open" />  </a>}<br />
             </div>
         </>
     )

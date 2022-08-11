@@ -1,5 +1,13 @@
 [
     {
+        "organisation": "SwitchLabs",
+        "role": "Software Engineer Intern",
+        "type": "Internship",
+        "start_date": "Augutst 8th 2022",
+        "end_date": "Present",
+        "description": "Refactoring the shopify code logic according to ES6 standards and rebuilding the company website."
+    },
+    {
         "organisation": "ACE- Association for Computer Enthusiasts",
         "role": "Web development and cyber security team member",
         "type": "Extracurricular work",
