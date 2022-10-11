@@ -48,6 +48,14 @@
         "tag": "Ranked 4042"
     },
     {
+        "name": "Script Summer of Code",
+        "type": 4,
+        "position": "",
+        "dated": "September 2022",
+        "image": "./images/Achievements/SSOC.png",
+        "tag": "Contributed"
+    },
+    {
         "name": "Accenture Consultant Program",
         "type": 1,
         "position": "",
