@@ -1,5 +1,13 @@
 [
     {
+        "organisation": "Impact Analytics",
+        "role": "Software Engineer Intern",
+        "type": "Internship",
+        "start_date": "November 2nd 2022",
+        "end_date": "Present",
+        "description": "Worked on developing dynamically rendered components for products demonstrations."
+    },
+    {
         "organisation": "SwitchLabs",
         "role": "Software Engineer Intern",
         "type": "Internship",

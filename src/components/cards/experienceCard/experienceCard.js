@@ -23,7 +23,7 @@ const ExperienceComponent = (EData) => {
     var pos = 0;
     return (
         <>
-            <div className='Experience-Card-Container' id='Experience'>
+            <div className='Experience-Card-Container'>
                 <h2 className='heading'>Experience</h2>
                 <div className='ExperienceCardsContainer2'>
                         <div id='line'></div>
