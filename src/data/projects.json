@@ -1,5 +1,19 @@
 [
     {
+        "name": "Ensemble 2.0",
+        "about": "A website for collaborative work and group projects.",
+        "tech": [
+          "React.js",
+          "Firebase",
+          "Styled Components",
+          "Python",
+          "Flask",
+          "PostgreSQL"
+        ],
+        "image": "./images/Projects/ensemble2.0.png",
+        "url": "https://en-semble.netlify.app/"
+    },
+    {
         "name": "Gamers Den",
         "about": "A website providing information and news about computer games with a community chat service.",
         "tech": [

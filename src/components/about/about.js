@@ -15,7 +15,7 @@ const About = () => {
                     <img src={ME} alt="Me" />
                     <div className='aboutMe'>
                         <p>
-                            An upcoming software developer and a technophile for life, myself 
+                            A software developer and a technophile for life, myself 
                             <b> Yash Raj Singh,</b> a senior in the prestigious Guru Gobind Singh 
                             Indraprastha University, currently pursuing Bachelor of Computer Applications. 
                             I've been deep into the sphere of web technologies and I can use my technical 

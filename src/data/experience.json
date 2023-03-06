@@ -1,36 +1,44 @@
 [
-    {
-        "organisation": "Impact Analytics",
-        "role": "Software Engineer Intern",
-        "type": "Internship",
-        "start_date": "November 2nd 2022",
-        "end_date": "Present",
-        "description": "Worked on developing dynamically rendered components for products demonstrations."
-    },
-    {
-        "organisation": "SwitchLabs",
-        "role": "Software Engineer Intern",
-        "type": "Internship",
-        "start_date": "Augutst 8th 2022",
-        "end_date": "October 15th 2022",
-        "description": "Structured the existing code for the product. Revamped overall look of the company's website. Built an analytics system to monitor traffic on the website"
-    },
-    {
-        "organisation": "ACE- Association for Computer Enthusiasts",
-        "role": "Web development team core member",
-        "type": "Extracurricular work",
-        "start_date": "Februray 15th 2021",
-        "end_date": "Present",
-        "description": "Conducting events as a part of the society and built projects as a part of the Web development and cyber security.",
-        "sample": "https://github.com/Yash-RajSingh/Despoina"
-    },
-    {
-        "organisation": "TrendingETC",
-        "role": "Content Writing intern",
-        "type": "Internship",
-        "start_date": "Februray 9th 2021",
-        "end_date": "May 31st 2021",
-        "description": "Created 180+ articles under the pen name- 'Highball' and curated website content.",
-        "sample": "https://www.trendingetc.com/author/highball/"
-    }
+  {
+    "organisation": "Impact Analytics",
+    "role": "Software Engineer Intern",
+    "type": "Internship",
+    "start_date": "November 2nd 2022",
+    "end_date": "Present (originally Feb 2nd 2023)",
+    "description": "Building components for the frontend and implementing UI designs using MUI and ag-grid."
+  },
+  {
+    "organisation": "ACE- Association for Computer Enthusiasts",
+    "role": "Web dev mentor",
+    "type": "Extracurricular work",
+    "start_date": "December 15th 2022",
+    "end_date": "Present",
+    "description": "Mentoring the web dev team and overseeing the team projects."
+  },
+  {
+    "organisation": "SwitchLabs",
+    "role": "Software Engineer Intern",
+    "type": "Internship",
+    "start_date": "Augutst 8th 2022",
+    "end_date": "October 15th 2022",
+    "description": "Structured the existing code for the product. Revamped overall look of the company's website. Built an analytics system to monitor traffic on the website"
+  },
+  {
+    "organisation": "ACE- Association for Computer Enthusiasts",
+    "role": "Web development team core member",
+    "type": "Extracurricular work",
+    "start_date": "Februray 15th 2021",
+    "end_date": "December 14th 2022",
+    "description": "Conducting events as a part of the society and built projects as a part of the Web development and cyber security.",
+    "sample": "https://github.com/Yash-RajSingh/Despoina"
+  },
+  {
+    "organisation": "TrendingETC",
+    "role": "Content Writing intern",
+    "type": "Internship",
+    "start_date": "Februray 9th 2021",
+    "end_date": "May 31st 2021",
+    "description": "Created 180+ articles under the pen name- 'Highball' and curated website content.",
+    "sample": "https://www.trendingetc.com/author/highball/"
+  }
 ]

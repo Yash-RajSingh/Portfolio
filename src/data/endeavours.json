@@ -1,5 +1,13 @@
 [
   {
+    "name": "Hack JMI",
+    "type": 3,
+    "position": "2nd position",
+    "dated": "February 16th 2023",
+    "image": "./images/Achievements/hackjmi.png",
+    "tag": "2nd Prize"
+  },
+  {
     "name": "first milestone of Google Cloud Facilitator Program",
     "type": 1,
     "position": "",
