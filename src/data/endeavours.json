@@ -26,6 +26,14 @@
   {
     "name": "Elytra Hacks",
     "type": 3,
+    "position": "a place among the top 15 teams",
+    "dated": "March 12th 2023",
+    "image": "./images/Achievements/HackOverflow.png",
+    "tag": "Top 15"
+  },
+  {
+    "name": "Elytra Hacks",
+    "type": 3,
     "position": "a place among the top 10 teams",
     "dated": "October 31st 2021",
     "image": "./images/Achievements/elytraHack.png",
@@ -44,7 +52,7 @@
     "type": 1,
     "position": "",
     "dated": "October 2022",
-    "image": "./images/Achievements/ytbr1.jpg",
+    "image": "./images/Achievements/hacktoberfest22.jpg",
     "tag": "Challenge Completed"
   },
   {
